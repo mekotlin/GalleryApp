@@ -11,6 +11,22 @@ class MyGallery extends StatefulWidget {
 
 class _MyGalleryState extends State<MyGallery> {
   File _image;
+  bool isCamera;
+
+  Future _commonIMage(isCamera) async {
+    File _newImage;
+
+    // Common code for Gallery and Camera
+
+    // if (isCamera) {
+    //   _newImage = await ImagePicker.pickImage(source: ImageSource.camera);
+    // } else {
+    //   _newImage = await ImagePicker.pickImage(source: ImageSource.gallery);
+    // }
+    // setState(() {
+    //   _image = _newImage;
+    // });
+  }
 
   Future _captureImage() async {
     File _caturedImage;
