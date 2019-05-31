@@ -1,4 +1,4 @@
-# galleryapp
+# GalleryApp
 
 A new Flutter project - Capture image or load from gallery .
 
